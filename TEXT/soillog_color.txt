@@ -1,0 +1,53 @@
+: --- Munsell Soil Color Chart Colors for 10R, 2.5YR,5YR, 7.5YR, 10YR, 2.5YR, 5YR
+: --- Changing the order of this list will affect the soil log autofill function
+: --- Consult Septi-CAD for help making changes. DO NOT DELETE THESE LINES OR EMPTY LINE BELOW
+
+Brown
+Dark Brown
+Dark Grayish Brown
+Dark Olive Brown
+Dark Reddish Brown
+Dark Yellowish Brown
+Grayish Brown
+Light Olive Brown
+Light Reddish Brown
+Light Yellowish Brown
+Olive Brown
+Pale Brown
+Reddish Brown
+Strong Brown
+Very Dark Brown
+Very Dark Grayish Brown
+Very Pale Brown
+Yellowish Brown
+---------------------------
+Yellow
+Olive Yellow
+Pale Yellow
+Reddish Yellow
+Brownish Yellow
+---------------------------
+Olive
+Pale Olive
+---------------------------
+Black
+Reddish Black
+---------------------------
+Gray
+Dark Gray
+Dark Reddish Gray
+Light Gray
+Light Brownish Gray
+Light Reddish Gray
+Pinkish Gray
+Reddish Gray
+Very Dark Gray
+---------------------------
+Red
+Dark Red
+Dusky Red
+Light Red
+Pale Red
+Very Dusky Red
+Weak Red
+Yellowish Red

@@ -1,0 +1,100 @@
+SeptiCAD System CodeTRENCH3
+SeptiCAD Note CodeStone Trench (3 feet wide)
+%P2-1%|TOTAL| l.f. of |SYSTEM|\P|ROWS| rows X |LENGTH| long (|WIDTH| x |LENGTH|) 
+%P2-1-H20%
+%P2-2%
+%P2-3%
+%P3-1%|TOTAL| l.f. of |SYSTEM|\P|ROWS| rows X |LENGTH| long (|WIDTH| x |LENGTH|) 
+%P3-1-H20%
+%P3-2%
+%P3-3%
+%P3-4%Toe of Fill Extension
+%P3-5%Shoulder of Gravelly Coarse Sand Fill
+%P3-6%
+%P3-7%
+%P3-8%
+%P3-9%
+%P3-10%
+%CE-1%Finished Grade Elevation (at Row 1)
+%CE-2%Top of Stone Trench (at Row 1)
+%CE-3%Top of Perforated Pipe (at Row 1)
+%CE-4%Bottom of Stone Trench (at Row 1)
+%X-1%3 Foot Wide Stone Trench. 12" Stone Below Perforated Pipe. Stone must be clean, uniform in\Psize, and free of fines, dust, ashes, or clay. Stone must\Pconform to the allowable nominal stone sizes (3/4" or 1-1/2")\Plisted in Table 11B of the Rules. Cover stone with filter fabric.
+%X-1-H20%
+%X-2%Minimum |MIN-FILL-ABOVE| Fill Above Stone\P4" Loam/Seed/Mulch Overlying Clean Sand
+%X-3%{\LNOTE:} BACKFILL MATERIAL PLACED BELOW OR WITHIN 3' OF THE STONE TRENCH MUST BE GRAVELLY COARSE SAND MEETING SECTION 11(E)(2) OF THE RULES.  REMAINING FILL LOAMY SAND (NO CLAY).
+%X-4%
+%X-5%4" Diameter Perforated Pipe\PTop of Perforated Pipe at |PERF-TOP|
+%X-6%
+%MAN-ALL-1%4" Dia. Solid PVC Pipe Manifold
+%MAN-ALL-2%4" Dia. Solid PVC Pipe Manifold
+%SERIAL-ALL-1%D-Box (Insulate)
+%SERIAL-ALL-2%4" Dia. Solid PVC Pipe
+%DBOX-MAN-1%D-Box (Insulate)
+%DBOX-MAN-2%4" Dia. Solid PVC Pipe Manifold
+%DBOX-SERIAL-1%D-Box (Insulate)
+%DBOX-SERIAL-2%4" Dia. Solid PVC Pipe
+%DBOX-SERIAL-3%Cap End of Perforated Pipe
+%DBOX-ALL-1%D-Box (Insulate)
+%DBOX-ALL-2%Cap End of Perforated Pipe
+%D-SWALE%Stormwater Diversion Swale\P(Min. 3% Final Grade)
+%SCAR-1%Scarify all ground to be filled. Remove vegetation and organic loam topsoil.  Scarify soil to a depth of 6 to 8 inches by mixing 4 inches of gravelly coarse sand with native soil using an excavator bucket with teeth.  Do not use a bucket without teeth because it can compact and smear the underlying soil.
+%SCAR-2%Scarify all ground to be filled. Remove vegetation and organic loam topsoil. Remove existing failed disposal field components and blackened soils within 3 feet of proposed disposal field. Scarify soil to a depth of 6 to 8 inches by mixing 4 inches of gravelly coarse sand with native soil using excavator bucket with teeth.  Do not use a bucket without teeth because it can compact and smear the underlying soil.
+%SCAR-3%BLANK
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
