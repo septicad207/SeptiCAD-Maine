@@ -1,0 +1,17 @@
+ Every printer has a NAME and PAPER SIZE ---do not delete
+ Every two lines represents a Printer ---do not delete
+ To Add a Printer type command sPrint at the command line or modify this text file ---do not delete
+Adobe PDF
+Letter
+Print As PDF.pc3
+ANSI_A
+Brother HL-L2370DW
+Letter
+EPSON Stylus CX6000
+Letter
+PDF reDirect v2
+Letter
+DWG To PDF.pc3
+ANSI_expand_A_(8.50_x_11.00_Inches)
+AutoCAD PDF (General Documentation).pc3
+ANSI_expand_A_(8.50_x_11.00_Inches)
