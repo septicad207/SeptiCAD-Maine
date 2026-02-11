@@ -1,0 +1,1094 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CustSection xml:lang="en-US">
+
+  <MenuGroup Name="SEPTICADV5">
+    <MacroGroup Name="SEPTICADMacros">
+      <MenuMacro UID="ID_SeptiCAD_System_Design">
+        <Macro>
+          <Name>SeptiCAD System Design</Name>
+          <Command>^C^C^Cseptic</Command>
+          
+          
+          <HelpString>Start SeptiCAD System Design</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\SD.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\SD.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Continue_SeptiCAD_System_Design">
+        <Macro>
+          <Name>Continue SeptiCAD System Design</Name>
+          <Command>^C^C^C(continueSeptic)</Command>
+          
+          
+          <HelpString>Continue SeptiCAD System Design</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\SD2.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\SD2.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Complete_HHE-200_Page_1_Only">
+        <Macro>
+          <Name>Complete HHE-200 Page 1 Only</Name>
+          <Command>^C^C^Cjustpage1</Command>
+          
+          
+          <HelpString>Complete HHE-200 Page 1 Only</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\PG1.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\PG1.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_SeptiCAD_Preferences">
+        <Macro>
+          <Name>SeptiCAD Preferences</Name>
+          <Command>^C^C^CsUser</Command>
+          
+          
+          <HelpString>SeptiCAD Preferences</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\suser.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\suser.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Help">
+        <Macro>
+          <Name>Help</Name>
+          <Command>^C^C^C(mainhelp)</Command>
+          
+          
+          <HelpString>Opens the SeptiCAD help file</HelpString>
+          <SmallImage Name="ICONS\HELP.bmp"/>
+          <LargeImage Name="ICONS\24x24\HELP.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Print_HHE-200_Pages">
+        <Macro>
+          <Name>Print HHE-200 Pages</Name>
+          <Command>^C^C^CsPrint</Command>
+          
+          
+          <HelpString>Print HHE-200 Pages</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\PRINTALL.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\PRINTALL.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Soil_Log">
+        <Macro>
+          <Name>Soil Log</Name>
+          <Command>^C^C^Clog</Command>
+          
+          
+          <HelpString>Soil Log</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\SOIL.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\SOIL.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Insert_Septic_Label">
+        <Macro>
+          <Name>Insert Septic Label</Name>
+          <Command>^C^C^Cslabel</Command>
+          
+          
+          <HelpString>Insert Label from SeptiCAD Label Library</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\LABEL.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\LABEL.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Insert_Septic_Block_Object">
+        <Macro>
+          <Name>Insert Septic Block Object</Name>
+          <Command>^C^C^Csblock</Command>
+          
+          
+          <HelpString>Insert Block from SeptiCAD Block Library</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\sblock.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\sblock.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Open_MapQuest_Map">
+        <Macro>
+          <Name>View Lat/Long on Various Websites</Name>
+          <Command>(c:goMapquest)</Command>
+          
+          
+          <HelpString>Opens Several Websites with Lat/Long given in SeptiCAD.</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\MAPQUEST.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\MAPQUEST.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Attach_Raster_Image">
+        <Macro>
+          <Name>Attach Raster Image</Name>
+          <Command>^C^C^C_imageattach</Command>
+          <Image ID="img_attach"/>
+          <HelpString>Attach raster image to current drawing</HelpString>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Text_Leader_Spline_-_Page_2">
+        <Macro>
+          <Name>Text Leader Spline - Page 2</Name>
+          <Command>^C^C^Cars2</Command>
+          
+          
+          <HelpString>Text Leader Spline - Page 2</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\ARS2.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\ARS2.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Dimension_-_Page_2">
+        <Macro>
+          <Name>Dimension - Page 2</Name>
+          <Command>^C^C^Card2</Command>
+          
+          
+          <HelpString>SeptiCAD Page 2 Tools</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\ARD2.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\ARD2.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Text_Leader_-_Page_2">
+        <Macro>
+          <Name>Text Leader - Page 2</Name>
+          <Command>^C^C^Cart2</Command>
+          
+          
+          <HelpString>Text Leader - Page 2</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\ART2.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\ART2.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Double-sided_Arrow_-_Page_2">
+        <Macro>
+          <Name>Double-sided Arrow - Page 2</Name>
+          <Command>^C^C^C(dArrow 2)</Command>
+          
+          
+          <HelpString>Double-sided Arrow - NO DIMENSION - Page 2</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\DARROW2.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\DARROW2.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Design_Notes_-_Page_2">
+        <Macro>
+          <Name>Design Notes - Page 2</Name>
+          <Command>^C^C^C(page2Notes)</Command>
+          
+          
+          <HelpString>Insert Note from SeptiCAD Note Libary on Page 2</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\PAGE2NOTES.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\PAGE2NOTES.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Text_Leader_Spline_-_Page_3">
+        <Macro>
+          <Name>Text Leader Spline - Page 3</Name>
+          <Command>^C^C^Cars3</Command>
+          
+          
+          <HelpString>Text Leader Spline - Page 3</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\ARS3.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\ARS3.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Text_Leader_-_Page_3">
+        <Macro>
+          <Name>Text Leader - Page 3</Name>
+          <Command>^C^C^Cart3</Command>
+          
+          
+          <HelpString>Text Leader - Page 3</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\ART3.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\ART3.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Dimension_-_Page_3">
+        <Macro>
+          <Name>Dimension - Page 3</Name>
+          <Command>^C^C^Card3</Command>
+          
+          
+          <HelpString>Dimension - Page 3</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\ARD3.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\ARD3.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Double-sided_Arrow_-_Page_3">
+        <Macro>
+          <Name>Double-sided Arrow - Page 3</Name>
+          <Command>^C^C^C(dArrow 3)</Command>
+          
+          
+          <HelpString>Double-sided Arrow - NO DIMENSION -Page 3</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\DARROW3.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\DARROW3.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Design_Notes_-_Page_3">
+        <Macro>
+          <Name>Design Notes - Page 3</Name>
+          <Command>^C^C^C(page3Notes)</Command>
+          
+          
+          <HelpString>Insert Note from SeptiCAD Note Libary on Page 3</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\PAGE3NOTES.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\PAGE3NOTES.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Digitally_Sign_the_HHE-200_Form">
+        <Macro>
+          <Name>Digitally Sign the HHE-200 Form</Name>
+          <Command>^C^C^Cstamp</Command>
+          
+          
+          <HelpString>Inserts a signature, current date, SE # at bottom of HHE-200</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\stamp.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\stamp.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Georeference_and_Scale">
+        <Macro>
+          <Name>Georeference and Scale</Name>
+          <Command>^C^C^Cgeors</Command>
+          
+          
+          <HelpString>Automatically rotate and scale selected entities with respect to other entities</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\georefs.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\georefs.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Georeference_and_NO_SCALE">
+        <Macro>
+          <Name>Georeference and NO SCALE</Name>
+          <Command>^C^C^Cgeor</Command>
+          
+          
+          <HelpString>Automatically rotate selected entities with respect to other entities</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\georef.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\georef.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Tree_Line">
+        <Macro>
+          <Name>Tree Line</Name>
+          <Command>^C^C^Ctree</Command>
+          
+          
+          <HelpString>Creates a series of arcs to show the edge of forests.</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\treeline.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\treeline.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_100_ft-_Well_Exclusion_Zone">
+        <Macro>
+          <Name>100 ft- Well Exclusion Zone</Name>
+          <Command>^C^C^CsWell</Command>
+          
+          
+          <HelpString>Click on 3 sequential corners (CCW or CW) to create an offset polyline [i.e. well exclusion zone]..</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\swell.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\swell.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Label_Cross_Section_Elevations">
+        <Macro>
+          <Name>Label Cross Section Elevations</Name>
+          <Command>^C^C^Cartp</Command>
+          
+          
+          <HelpString>Label Elevation - Only accurate if cross section has not been moved.</HelpString>
+          <SmallImage Name="C:\SeptiCADv5\ICONS\artp.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\artp.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="unlockallviewports">
+        <Macro>
+          <Name>UNLOCK all Viewports</Name>
+          <Command>^c^c(vportunlock "VERBOSE")</Command>
+          <HelpString>Unlock all Viewports in the Drawing</HelpString>
+          <Image ID="lock_0"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="changelabeltocrosssectionscale">
+        <Macro>
+          <Name>Change Label to Cross Section Scale</Name>
+          <Command>^C^C(c:mpp)</Command>
+          <HelpString/>
+          
+          <SmallImage Name="C:\SeptiCADv5\ICONS\MAKEX.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\MAKEX.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="changelabeltopage3scale">
+        <Macro>
+          <Name>Change Label to Page 3 Scale</Name>
+          <Command>^C^C(c:mp3)</Command>
+          <HelpString/>
+          
+          <SmallImage Name="C:\SeptiCADv5\ICONS\MAKE3.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\MAKE3.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="changelabeltopage2scale">
+        <Macro>
+          <Name>Change Label to Page 2 Scale</Name>
+          <Command>^C^C(c:mp2)</Command>
+          <HelpString/>
+          
+          <SmallImage Name="C:\SeptiCADv5\ICONS\MAKE2.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\MAKE2.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="changemapandcrosssectionscales">
+        <Macro>
+          <Name>Change Map and Cross Section Scales</Name>
+          <Command>^C^C(c:mapscale)</Command>
+          <HelpString/>
+          
+          <SmallImage Name="C:\SeptiCADv5\ICONS\MAPSCALE.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\MAPSCALE.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="unlockallviewports">
+        <Macro>
+          <Name>UNLOCK all Viewports</Name>
+          <Command>^C^C(c:vportunlock)</Command>
+          <HelpString/>
+          
+          <SmallImage Name="C:\SeptiCADv5\ICONS\UNLOCK.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\UNLOCK.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="lockallviewports">
+        <Macro>
+          <Name>LOCK all Viewports</Name>
+          <Command>^C^C(c:vportlock)</Command>
+          <HelpString/>
+          
+          <SmallImage Name="C:\SeptiCADv5\ICONS\LOCK.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\LOCK.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="freezeselectedlayer">
+        <Macro>
+          <Name>Freeze Selected Layer</Name>
+          <Command>^C^C(c:FL)</Command>
+          <HelpString/>
+          
+          <SmallImage Name="C:\SeptiCADv5\ICONS\layerFreeze.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\layerFreeze.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="changecolorofselectedlayer">
+        <Macro>
+          <Name>Change Color of Selected Layer</Name>
+          <Command>^C^C(c:LC)</Command>
+          <HelpString/>
+          
+          <SmallImage Name="C:\SeptiCADv5\ICONS\layerColor.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\layerColor.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="makeblockquick">
+        <Macro>
+          <Name>Make Block Quick</Name>
+          <Command>^C^C(c:mb)</Command>
+          <HelpString/>
+          
+          <SmallImage Name="C:\SeptiCADv5\ICONS\makeBlock.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\makeBlock.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="togglemtextbackgroundmasks">
+        <Macro>
+          <Name>Toggle mText Background Masks</Name>
+          <Command>^C^C(c:mtw)</Command>
+          <HelpString/>
+          
+          <SmallImage Name="C:\SeptiCADv5\ICONS\mTextBg.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\mTextBg.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="opengoogleearthandzoomtosite">
+        <Macro>
+          <Name>Open Google Earth and Zoom to Site</Name>
+          <Command>^C^C(gEarth "C:\\Program Files\\Google\\Google Earth Pro\\client\\googleearth.exe")</Command>
+          <HelpString/>
+          
+          <SmallImage Name="C:\SeptiCADv5\ICONS\googleEarth.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\googleEarth.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="systemdimensioncalculator">
+        <Macro>
+          <Name>System Dimension Calculator</Name>
+          <Command>^C^C(c:scalc)</Command>
+          <HelpString>System Dimension Calculator</HelpString>
+          
+          <SmallImage Name="C:\SeptiCADv5\ICONS\SCALC.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\SCALC.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="scarifiedgroundhatchtool">
+        <Macro>
+          <Name>Scarified Ground Hatch Tool</Name>
+          <Command>(c:scarh)</Command>
+          <HelpString>Select Polyline and diagonal lines will be drawn below the polyline </HelpString>
+          
+          <SmallImage Name="C:\SeptiCADv5\ICONS\scarify.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\scarify.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="drawallfourcrosssection">
+        <Macro>
+          <Name>Draw All Four Cross Section</Name>
+          <Command>^C(c:4cross)</Command>
+          <HelpString>All four cross sections will be drawn to the right of the one</HelpString>
+          
+          <SmallImage Name="C:\SeptiCADv5\ICONS\4CROSS.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\4CROSS.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="drawstormwaterdiversionswale">
+        <Macro>
+          <Name>Draw Stormwater Diversion Swale</Name>
+          <Command>^C^C(c:dswale)</Command>
+          <HelpString>A stormwater diversion swale will be drawn and labeled</HelpString>
+          
+          <SmallImage Name="C:\SeptiCADv5\ICONS\DSWALE.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\DSWALE.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="drawswingties">
+        <Macro>
+          <Name>Draw Swing Ties</Name>
+          <Command>^c^c(c:swingtie)</Command>
+          <HelpString>Draw Swing Ties</HelpString>
+          
+          
+          <SmallImage Name="C:\SeptiCADv5\ICONS\SWINGTIE.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\SWINGTIE.bmp"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="autoscarfiedgroundhatchtool(experimental)">
+        <Macro>
+          <Name>Auto Scarfied Ground Hatch Tool (Experimental)</Name>
+          <Command>^c^c(c:scarauto)</Command>
+          <HelpString/>
+          
+          <SmallImage Name="C:\SeptiCADv5\ICONS\scarifyAuto.bmp"/>
+          <LargeImage Name="C:\SeptiCADv5\ICONS\24x24\scarifyAuto.bmp"/>
+        </Macro>
+      </MenuMacro>
+    </MacroGroup>
+    <MacroGroup Name="View">
+      <MenuMacro UID="vports">
+        <Macro>
+          <Name>Viewports</Name>
+          <Command>^c^c(vportlock "VERBOSE")</Command>
+          <HelpString>Lock all Viewports in the Drawing</HelpString>
+          <Image ID="vports"/>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="vports">
+        <Macro>
+          <Name>Viewports</Name>
+          <Command>^c^c(vportlock "VERBOSE")</Command>
+          <HelpString>Lock all Viewports in the Drawing</HelpString>
+          <Image ID="lock_1"/>
+        </Macro>
+      </MenuMacro>
+    </MacroGroup>
+    <MenuRoot>
+      <AcceleratorRoot/>
+      <PopMenuRoot/>
+      <ToolbarRoot>
+        <Toolbar ToolbarOrient="top" ToolbarVisible="show" UID="TBAR_SeptiCAD" rows="1" xval="-2" yval="79">
+          <Alias>SEPTICADv3</Alias>
+          <Name>SeptiCAD</Name>
+          <ToolbarButton>
+            <Name>SeptiCAD System Design</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_SeptiCAD_System_Design"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Continue SeptiCAD System Design</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Continue_SeptiCAD_System_Design"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Print HHE-200 Pages</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Print_HHE-200_Pages"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true"/>
+          
+          <ToolbarButton>
+            <Name>SeptiCAD Preferences</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_SeptiCAD_Preferences"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>SeptiCAD Help</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Help"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="true"/>
+          
+          
+          <ToolbarButton>
+            <Name>Soil Log</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Soil_Log"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Insert Label</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Insert_Septic_Label"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Insert Block Object</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Insert_Septic_Block_Object"/>
+            </MenuItem>
+          </ToolbarButton>
+          
+          
+          <ToolbarFlyout UseOwnIcon="false" pTargetAlias="TB_SeptiCADPage2Tools">
+            <FlyoutName>SeptiCAD - Page 2 Tools</FlyoutName>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Text_Leader_-_Page_2"/>
+            </MenuItem></ToolbarFlyout>
+          <ToolbarFlyout UseOwnIcon="false" pTargetAlias="TB_SeptiCADPage3Tools">
+            <FlyoutName>SeptiCAD - Page 3 Tools</FlyoutName>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Text_Leader_-_Page_3"/>
+            </MenuItem></ToolbarFlyout>
+          <ToolbarFlyout UseOwnIcon="false" pTargetAlias="TB_SeptiCAD-MapandLabelScaleChange">
+            <FlyoutName>SeptiCAD - Map and Label Scale Change</FlyoutName>
+            <MenuItem>
+              <MacroRef MenuMacroID="changemapandcrosssectionscales"/>
+            </MenuItem></ToolbarFlyout>
+          
+          <ToolbarFlyout UseOwnIcon="false" pTargetAlias="TB_SeptiCADMoreTools">
+            <FlyoutName>SeptiCAD More Tools</FlyoutName>
+            <MenuItem>
+              <MacroRef MenuMacroID="togglemtextbackgroundmasks"/>
+            </MenuItem></ToolbarFlyout>
+          <ToolbarButton IsSeparator="true"/>
+          <ToolbarButton>
+            <Name>Open MapQuest Map</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Open_MapQuest_Map"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Open Google Earth and Zoom to Site</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="opengoogleearthandzoomtosite"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Attach Raster Image</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Attach_Raster_Image"/>
+            </MenuItem>
+          </ToolbarButton>
+        </Toolbar>
+        
+        
+        
+        <Toolbar ToolbarOrient="floating" ToolbarVisible="hide" UID="ID_TbSeptiCAD-MapandLabelScaleChange" rows="1">
+          <Alias>TB_SeptiCAD-MapandLabelScaleChange</Alias>
+          <Name>SeptiCAD Map and Label Scale Change</Name>
+          <ToolbarButton>
+            <Name>Change Map and Cross Section Scales</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="changemapandcrosssectionscales"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Change Label to Page 2 Scale</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="changelabeltopage2scale"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Change Label to Page 3 Scale</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="changelabeltopage3scale"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Change Label to Cross Section Scale</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="changelabeltocrosssectionscale"/>
+            </MenuItem>
+          </ToolbarButton>
+        </Toolbar>
+        <Toolbar ToolbarOrient="floating" ToolbarVisible="hide" UID="ID_TbSeptiCADPage2Tools" rows="1">
+          <Alias>TB_SeptiCADPage2Tools</Alias>
+          <Name>SeptiCAD Page 2 Tools</Name>
+          <ToolbarButton>
+            <Name>Text Leader - Page 2</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Text_Leader_-_Page_2"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Text Leader Spline - Page 2</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Text_Leader_Spline_-_Page_2"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Dimension - Page 2</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Dimension_-_Page_2"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Double-sided Arrow - Page 2</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Double-sided_Arrow_-_Page_2"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Design Notes - Page 2</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Design_Notes_-_Page_2"/>
+            </MenuItem>
+          </ToolbarButton>
+        </Toolbar>
+        <Toolbar ToolbarOrient="floating" ToolbarVisible="hide" UID="ID_TbSeptiCADPage3Tools" rows="1">
+          <Alias>TB_SeptiCADPage3Tools</Alias>
+          <Name>SeptiCAD Page 3 Tools</Name>
+          <ToolbarButton>
+            <Name>Text Leader - Page 3</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Text_Leader_-_Page_3"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Text Leader Spline - Page 3</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Text_Leader_Spline_-_Page_3"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Dimension - Page 3</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Dimension_-_Page_3"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Double-sided Arrow - Page 3</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Double-sided_Arrow_-_Page_3"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Design Notes - Page 3</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Design_Notes_-_Page_3"/>
+            </MenuItem>
+          </ToolbarButton>
+        </Toolbar>
+        <Toolbar ToolbarOrient="floating" ToolbarVisible="hide" UID="ID_TbSeptiCADOtherTools" rows="1">
+          <Alias>TB_SeptiCADOtherTools</Alias>
+          <Name>SeptiCAD Other Tools</Name>
+          <ToolbarButton>
+            <Name>Digitally Sign the HHE-200 Form</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Digitally_Sign_the_HHE-200_Form"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>System Dimension Calculator</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="systemdimensioncalculator"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Label Cross Section Elevations</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Label_Cross_Section_Elevations"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>LOCK all Viewports</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="lockallviewports"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>UNLOCK all Viewports</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="unlockallviewports"/>
+            </MenuItem>
+          </ToolbarButton>
+          
+          <ToolbarButton>
+            <Name>Complete HHE-200 Page 1 Only</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Complete_HHE-200_Page_1_Only"/>
+            </MenuItem>
+          </ToolbarButton>
+        </Toolbar>
+        <Toolbar ToolbarOrient="floating" ToolbarVisible="hide" UID="ID_TbSeptiCADMoreTools" rows="1">
+          <Alias>TB_SeptiCADMoreTools</Alias>
+          <Name>SeptiCAD More Tools</Name>
+          <ToolbarButton>
+            <Name>Draw Swing Ties</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="drawswingties"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Draw Stormwater Diversion Swale</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="drawstormwaterdiversionswale"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Draw All Four Cross Section</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="drawallfourcrosssection"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Auto Scarfied Ground Hatch Tool (Experimental)</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="autoscarfiedgroundhatchtool(experimental)"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Scarified Ground Hatch Tool</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="scarifiedgroundhatchtool"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Toggle mText Background Masks</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="togglemtextbackgroundmasks"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Make Block Quick</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="makeblockquick"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Georeference and NO SCALE</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Georeference_and_NO_SCALE"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Georeference and Scale</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Georeference_and_Scale"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>100 ft- Well Exclusion Zone</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_100_ft-_Well_Exclusion_Zone"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Tree Line</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Tree_Line"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Change Color of Selected Layer</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="changecolorofselectedlayer"/>
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton>
+            <Name>Freeze Selected Layer</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="freezeselectedlayer"/>
+            </MenuItem>
+          </ToolbarButton>
+        </Toolbar>
+      </ToolbarRoot>
+      <ImageMenuRoot/>
+      <MouseButtonRoot/>
+      <DoubleClickRoot/>
+      <DigitizerButtonRoot/>
+      <TabletMenuRoot/>
+      <RibbonRoot>
+        <RibbonTabSourceCollection>
+          <RibbonTabSource Text="SeptiCAD" UID="S_MAIN">
+            <Name>SeptiCAD</Name>
+            <RibbonPanelSourceReference PanelId="P_MAIN"/>
+            <RibbonPanelSourceReference PanelId="SEPTIC_SCALE"/>
+            <RibbonPanelSourceReference PanelId="SEPTICAD_GEOREF"/>
+            <RibbonPanelSourceReference PanelId="PAGE_3_TOOLS"/>
+            <RibbonPanelSourceReference PanelId="SEPTICAD_OTHER"/>
+            <RibbonPanelSourceReference PanelId="SEPTICAD_OTHER_2"/>
+            <RibbonPanelSourceReference PanelId="SEPTICAD_LOCATION"/>
+            <RibbonPanelSourceReference PanelId="SEPTICAD_HELP"/>
+            <RibbonPanelSourceReference PanelId="SEPTICAD_CUSTOMIZE"/>
+            <RibbonPanelSourceReference PanelId="SEPTICAD_LAYERS"/>
+            
+            <RibbonPanelSourceReference PanelId="SEPTICAD_DRAW"/>
+            <RibbonPanelSourceReference PanelId="SEPTICAD_DRAW123"/>
+          </RibbonTabSource>
+        </RibbonTabSourceCollection>
+        <RibbonPanelSourceCollection>
+          <RibbonPanelSource Text="Drawing Tools 2" UID="SEPTICAD_DRAW123">
+            <Name>Drawing Tools 2</Name>
+            <RibbonRow>
+              <RibbonRowPanel>
+                <RibbonRow>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.copy" Text="Copy"/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.move" Text="Move"/>
+                  <RibbonSeparator SeparatorStyle="Spacer"/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.generateboundary" Text="Generate Boundary"/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.offset" Text="Offset"/>
+                </RibbonRow>
+                <RibbonRow>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.undo" Text="Undo"/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.redo" Text="Redo"/>
+                  <RibbonSeparator SeparatorStyle="Spacer"/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.cutclip" Text="Cut"/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.pasteclip" Text="Paste"/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.copyclip" Text="Copy"/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.copybase" Text="Copy with Base Point"/>
+                </RibbonRow>
+                <RibbonRow>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.trim" Text="Trim"/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.extend" Text="Extend"/>
+                  <RibbonSeparator SeparatorStyle="Spacer"/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.explode" Text="Explode"/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.txtexp" Text="Explode Text"/>
+                </RibbonRow>
+              </RibbonRowPanel>
+            </RibbonRow>
+          </RibbonPanelSource>
+          <RibbonPanelSource Text="Drawing Tools" UID="SEPTICAD_DRAW">
+            <Name>Drawing Tools</Name>
+            <RibbonRow>
+                  
+                  
+                  
+                  
+                <RibbonRowPanel>
+                <RibbonRow>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.draworder_front" Text="Bring to Front"/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.draworder_back" Text="Send to Back"/>
+                  <RibbonSeparator SeparatorStyle="Spacer"/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.hatchtoback" Text="Send Hatches to Back"/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.texttofront" Text="Bring Text and/or Dimensions to Front"/>
+                  
+                  
+                </RibbonRow>
+                
+                <RibbonRow>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.pline" Text="Polyline"/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.fit_polyline" Text="Fit Polyline"/>
+                  <RibbonSeparator SeparatorStyle="Spacer"/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.line" Text="Line"/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.arc" Text="Arc"/>
+                  <RibbonSeparator SeparatorStyle="Spacer"/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.spline" Text="Spline"/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.circle" Text="Circle"/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.rectang" Text="Rectangle"/>
+                  <RibbonSeparator SeparatorStyle="Spacer"/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.wipeout" Text="Wipeout"/>
+                  <RibbonSeparator SeparatorStyle="Spacer"/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.hatch" Text="Hatch..."/>
+                  <RibbonCommandButton MenuMacroID="BRICSCAD.quickhatch" Text="Quick Hatch"/>
+                </RibbonRow>
+              </RibbonRowPanel>
+            </RibbonRow>
+            </RibbonPanelSource>
+          <RibbonPanelSource Text="Layers" UID="SEPTICAD_LAYERS">
+            <Name>Layers</Name>
+            <RibbonRow>
+              <RibbonControl Id="LayerControl" Text="Layer"/>
+            </RibbonRow>
+            <RibbonRow>
+              <RibbonControl Id="LineTypeControl" Text="Linetype"/>
+            </RibbonRow>
+            <RibbonRow>
+              
+              
+              
+              <RibbonControl Id="LineWeightControl" Text="Lineweight"/>
+            </RibbonRow>
+          </RibbonPanelSource>
+          <RibbonPanelSource Text="SeptiCAD Other Tools 2" UID="SEPTICAD_OTHER_2">
+            <Name>Other Tools 2</Name>
+            <RibbonRow>
+              
+              <RibbonCommandButton MenuMacroID="ID_Attach_Raster_Image" Text="Attach Raster Image"/>
+              <RibbonSeparator SeparatorStyle="Spacer"/>
+              <RibbonCommandButton MenuMacroID="unlockallviewports" Text="UNLOCK all Viewports"/>
+              <RibbonCommandButton MenuMacroID="lockallviewports" Text="LOCK all Viewports"/>
+              
+            </RibbonRow>
+            <RibbonRow>
+              <RibbonCommandButton MenuMacroID="makeblockquick" Text="Make Block Quick"/>
+              <RibbonSeparator SeparatorStyle="Spacer"/>
+              <RibbonCommandButton MenuMacroID="changecolorofselectedlayer" Text="Change Color of Selected Layer"/>
+              
+              <RibbonCommandButton MenuMacroID="freezeselectedlayer" Text="Freeze Selected Layer"/>
+            </RibbonRow>
+          </RibbonPanelSource>
+          <RibbonPanelSource Text="SeptiCAD Other Tools 1" UID="SEPTICAD_OTHER">
+            <Name>Other Tools 1</Name>
+            <RibbonRow>
+              <RibbonCommandButton MenuMacroID="drawswingties" Text="Draw Swing Ties"/>
+              <RibbonSeparator SeparatorStyle="Spacer"/>
+              <RibbonCommandButton MenuMacroID="drawstormwaterdiversionswale" Text="Draw Stormwater Diversion Swale"/>
+              <RibbonSeparator SeparatorStyle="Spacer"/>
+              <RibbonCommandButton MenuMacroID="autoscarfiedgroundhatchtool(experimental)" Text="Auto Scarfied Ground Hatch Tool (Experimental)"/>
+              <RibbonCommandButton MenuMacroID="scarifiedgroundhatchtool" Text="Scarified Ground Hatch Tool"/>
+            </RibbonRow>
+            <RibbonRow>
+              <RibbonCommandButton MenuMacroID="togglemtextbackgroundmasks" Text="Toggle mText Background Masks"/>
+              <RibbonCommandButton MenuMacroID="ID_100_ft-_Well_Exclusion_Zone" Text="100 ft- Well Exclusion Zone"/>
+              <RibbonCommandButton MenuMacroID="ID_Label_Cross_Section_Elevations" Text="Label Cross Section Elevations"/>
+              <RibbonCommandButton MenuMacroID="drawallfourcrosssection" Text="Draw All Four Cross Section"/>
+              <RibbonCommandButton MenuMacroID="systemdimensioncalculator" Text="System Dimension Calculator"/>
+            </RibbonRow>
+          </RibbonPanelSource>
+          <RibbonPanelSource Text="Georef" UID="SEPTICAD_GEOREF">
+            <Name>Georeference</Name>
+            <RibbonRow>
+              <RibbonCommandButton MenuMacroID="ID_Georeference_and_Scale" Text="Georeference and Scale"/>
+              <RibbonSeparator SeparatorStyle="Spacer"/>
+              <RibbonCommandButton MenuMacroID="ID_Georeference_and_NO_SCALE" Text="Georeference and NO SCALE"/>
+            </RibbonRow>
+          </RibbonPanelSource>
+          <RibbonPanelSource Text="Location Tools" UID="SEPTICAD_LOCATION">
+            <Name>Location Tools</Name>
+            <RibbonRow>
+              <RibbonCommandButton MenuMacroID="opengoogleearthandzoomtosite" Text="Open Google Earth and Zoom to Site"/>
+              <RibbonSeparator SeparatorStyle="Spacer"/>
+              <RibbonCommandButton MenuMacroID="ID_Open_MapQuest_Map" Text="Open MapQuest Map"/>
+            </RibbonRow>
+          </RibbonPanelSource>
+          <RibbonPanelSource Text="Map Scale" UID="SEPTIC_SCALE">
+            <Name>Map Scale</Name>
+            <RibbonRow>
+              <RibbonSeparator SeparatorStyle="Spacer"/>
+              <RibbonSeparator SeparatorStyle="Spacer"/>
+              <RibbonCommandButton MenuMacroID="changemapandcrosssectionscales" Text="Change Map and Cross Section Scales"/>
+            </RibbonRow>
+            <RibbonRow>
+              <RibbonCommandButton MenuMacroID="changelabeltopage2scale" Text="Change Label to Page 2 Scale"/>
+              
+              <RibbonCommandButton MenuMacroID="changelabeltopage3scale" Text="Change Label to Page 3 Scale"/>
+              
+              <RibbonCommandButton MenuMacroID="changelabeltocrosssectionscale" Text="Change Label to Cross Section Scale"/>
+            </RibbonRow>
+          </RibbonPanelSource>
+          <RibbonPanelSource Text="Help" UID="SEPTICAD_HELP">
+            <Name>Help</Name>
+            <RibbonRow>
+              <RibbonCommandButton MenuMacroID="ID_Help" Text="Help"/>
+            </RibbonRow>
+          </RibbonPanelSource>
+          <RibbonPanelSource Text="Customize" UID="SEPTICAD_CUSTOMIZE">
+            <Name>Customize</Name>
+            <RibbonRow>
+              <RibbonCommandButton MenuMacroID="ID_SeptiCAD_Preferences" Text="SeptiCAD Preferences"/>
+            </RibbonRow>
+          </RibbonPanelSource>
+          <RibbonPanelSource Text="Label Tools" UID="PAGE_3_TOOLS">
+            <Name>Labels</Name>
+            <RibbonRow>
+              <RibbonCommandButton MenuMacroID="ID_Insert_Septic_Label" Text="Insert Septic Label"/>
+              <RibbonCommandButton MenuMacroID="ID_Insert_Septic_Block_Object" Text="Insert Septic Block Object"/>
+            </RibbonRow>
+            <RibbonRow>
+              <RibbonCommandButton MenuMacroID="ID_Dimension_-_Page_2" Text="Dimension - Page 2"/>
+              <RibbonCommandButton MenuMacroID="ID_Double-sided_Arrow_-_Page_2" Text="Double-sided Arrow - Page 2"/>
+              <RibbonSeparator SeparatorStyle="Line"/>
+              <RibbonCommandButton MenuMacroID="ID_Text_Leader_Spline_-_Page_2" Text="Text Leader Spline - Page 2"/>
+              <RibbonCommandButton MenuMacroID="ID_Text_Leader_-_Page_2" Text="Text Leader - Page 2"/>
+              <RibbonSeparator SeparatorStyle="Line"/>
+              <RibbonCommandButton MenuMacroID="ID_Design_Notes_-_Page_2" Text="Design Notes - Page 2"/>
+            </RibbonRow>
+            <RibbonRow>
+              <RibbonCommandButton MenuMacroID="ID_Dimension_-_Page_3" Text="Dimension - Page 3"/>
+              <RibbonCommandButton MenuMacroID="ID_Double-sided_Arrow_-_Page_3" Text="Double-sided Arrow - Page 3"/>
+              <RibbonSeparator SeparatorStyle="Line"/>
+              <RibbonCommandButton MenuMacroID="ID_Text_Leader_-_Page_3" Text="Text Leader - Page 3"/>
+              <RibbonCommandButton MenuMacroID="ID_Text_Leader_Spline_-_Page_3" Text="Text Leader Spline - Page 3"/>
+              <RibbonSeparator SeparatorStyle="Line"/>
+              <RibbonCommandButton MenuMacroID="ID_Design_Notes_-_Page_3" Text="Design Notes - Page 3"/>
+            </RibbonRow>
+          </RibbonPanelSource>
+          <RibbonPanelSource Text="Design" UID="P_MAIN">
+            <Name>Design</Name>
+            
+            <RibbonRow>
+              
+              <RibbonCommandButton MenuMacroID="ID_SeptiCAD_System_Design" Text="SeptiCAD System Design"/>
+              <RibbonCommandButton MenuMacroID="ID_Continue_SeptiCAD_System_Design" Text="Continue SeptiCAD System Design"/>
+              <RibbonCommandButton MenuMacroID="ID_Soil_Log" Text="Soil Log"/></RibbonRow>
+            <RibbonRow>
+              
+              
+              
+              <RibbonCommandButton MenuMacroID="ID_Print_HHE-200_Pages" Text="Print HHE-200 Pages"/>
+              <RibbonCommandButton MenuMacroID="ID_Complete_HHE-200_Page_1_Only" Text="Complete HHE-200 Page 1 Only"/>
+              <RibbonCommandButton MenuMacroID="ID_Digitally_Sign_the_HHE-200_Form" Text="Digitally Sign the HHE-200 Form"/></RibbonRow>
+          </RibbonPanelSource>
+        </RibbonPanelSourceCollection>
+        <RibbonTabSelectors/>
+      </RibbonRoot>
+      <QuadRoot>
+        <QuadTabs/>
+      </QuadRoot>
+    </MenuRoot>
+  </MenuGroup>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</CustSection>
